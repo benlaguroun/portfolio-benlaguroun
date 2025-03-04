@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { Code2, Sparkles, Terminal } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { motion } from "framer-motion";
+import { Code2, Sparkles, Terminal } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function Home() {
   return (
@@ -22,7 +22,8 @@ export function Home() {
               Frontend Engineer
             </h1>
             <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-              Crafting beautiful, responsive, and user-friendly web experiences with modern technologies.
+              Crafting beautiful, responsive, and user-friendly web experiences
+              with modern technologies.
             </p>
           </motion.div>
 
@@ -75,14 +76,14 @@ export function Home() {
             </Link>
           </motion.div>
 
-          <motion.img
+          {/* <motion.img
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.8 }}
             src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
             alt="Coding workspace"
             className="mt-20 rounded-2xl shadow-2xl mx-auto border border-gray-700"
-          />
+          /> */}
         </motion.div>
       </div>
     </section>

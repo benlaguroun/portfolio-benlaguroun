@@ -25,7 +25,7 @@ export function Header() {
             transition={{ duration: 0.5 }}
             className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text"
           >
-            Mohamed benlaguroun
+            Mohamed ben
           </motion.div>
 
           {/* Desktop Navigation */}

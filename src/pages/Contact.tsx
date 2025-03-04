@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, MapPin, Phone, Twitter } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Github, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
 
 export function Contact() {
   return (
@@ -15,7 +15,8 @@ export function Contact() {
             Get in Touch
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind? Let's work together to create something amazing.
+            Have a project in mind? Let's work together to create something
+            amazing.
           </p>
         </motion.div>
 
@@ -27,7 +28,9 @@ export function Contact() {
             className="space-y-8"
           >
             <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700">
-              <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+              <h3 className="text-2xl font-semibold mb-6">
+                Contact Information
+              </h3>
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="p-3 bg-blue-500/10 rounded-lg">
@@ -35,7 +38,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-300">Email</h4>
-                    <p className="text-gray-400">your.email@example.com</p>
+                    <p className="text-gray-400">benlaguroun@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -44,7 +47,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-300">Phone</h4>
-                    <p className="text-gray-400">+1 (555) 123-4567</p>
+                    <p className="text-gray-400">+212 (645) 53-94-38</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -53,7 +56,9 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium text-gray-300">Location</h4>
-                    <p className="text-gray-400">San Francisco, CA</p>
+                    <p className="text-gray-400">
+                      Chichaoua-Marrakech, MOROCCO
+                    </p>
                   </div>
                 </div>
               </div>
@@ -62,7 +67,8 @@ export function Contact() {
             <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700">
               <h3 className="text-2xl font-semibold mb-4">Let's Connect</h3>
               <p className="text-gray-400">
-                Follow me on social media or check out my work on GitHub to stay updated with my latest projects and insights.
+                Follow me on social media or check out my work on GitHub to stay
+                updated with my latest projects and insights.
               </p>
               <div className="flex gap-4 mt-6">
                 <a
@@ -100,7 +106,10 @@ export function Contact() {
             className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700 space-y-6"
           >
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
+              <label
+                htmlFor="name"
+                className="block text-sm font-medium text-gray-300 mb-2"
+              >
                 Name
               </label>
               <input
@@ -111,7 +120,10 @@ export function Contact() {
               />
             </div>
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-300 mb-2"
+              >
                 Email
               </label>
               <input
@@ -122,7 +134,10 @@ export function Contact() {
               />
             </div>
             <div>
-              <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-2">
+              <label
+                htmlFor="subject"
+                className="block text-sm font-medium text-gray-300 mb-2"
+              >
                 Subject
               </label>
               <input
@@ -133,7 +148,10 @@ export function Contact() {
               />
             </div>
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-gray-300 mb-2"
+              >
                 Message
               </label>
               <textarea
