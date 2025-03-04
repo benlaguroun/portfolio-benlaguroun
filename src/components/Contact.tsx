@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export function Contact() {
   return (
@@ -27,21 +27,21 @@ export function Contact() {
               <Mail className="text-blue-600" size={24} />
               <div>
                 <h4 className="font-medium">Email</h4>
-                <p className="text-gray-600">your.email@example.com</p>
+                <p className="text-gray-600">benlaguroun@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
               <Phone className="text-blue-600" size={24} />
               <div>
                 <h4 className="font-medium">Phone</h4>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">+212 (045) 53-94-38</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
               <MapPin className="text-blue-600" size={24} />
               <div>
                 <h4 className="font-medium">Location</h4>
-                <p className="text-gray-600">San Francisco, CA</p>
+                <p className="text-gray-600">Chichaoua,Marrakech - Morocco</p>
               </div>
             </div>
           </motion.div>
@@ -53,7 +53,10 @@ export function Contact() {
             className="space-y-6"
           >
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="name"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 Name
               </label>
               <input
@@ -63,7 +66,10 @@ export function Contact() {
               />
             </div>
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 Email
               </label>
               <input
@@ -73,7 +79,10 @@ export function Contact() {
               />
             </div>
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 Message
               </label>
               <textarea
