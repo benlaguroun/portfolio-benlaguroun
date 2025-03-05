@@ -57,7 +57,7 @@ export function Contact() {
                   <div>
                     <h4 className="font-medium text-gray-300">Location</h4>
                     <p className="text-gray-400">
-                      Chichaoua-Marrakech, MOROCCO
+                      Chichaoua-Marrakech, Morocco
                     </p>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ export function Contact() {
               </p>
               <div className="flex gap-4 mt-6">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/benlaguroun"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors"

@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
-import { Code2, Sparkles, Terminal, Globe, Rocket, Layers } from "lucide-react";
+import { motion } from 'framer-motion';
+import { Code2, Sparkles, Terminal } from 'lucide-react';
 
 export function Hero() {
   return (
@@ -12,70 +12,43 @@ export function Hero() {
           className="text-center"
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Frontend Engineer<span className="text-blue-600">.</span>
+            Frontend Engineer
+            <span className="text-blue-600">.</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Crafting beautiful, responsive, and user-friendly web experiences
-            with modern technologies.
+          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
+            Crafting beautiful, responsive, and user-friendly web experiences with modern technologies.
           </p>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            className="flex justify-center gap-6 mb-12"
-          >
-            <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition">
-              View My Work
-            </button>
-            <button className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition">
-              Contact Me
-            </button>
-          </motion.div>
-          {/* Skills Section */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-12">
+          <div className="flex justify-center gap-8 mb-16">
             <motion.div
               whileHover={{ scale: 1.05 }}
-              className="flex items-center gap-3 text-blue-600"
+              className="flex items-center gap-2 text-blue-600"
             >
-              <Code2 size={28} />
+              <Code2 size={24} />
               <span>Clean Code</span>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.05 }}
-              className="flex items-center gap-3 text-blue-600"
+              className="flex items-center gap-2 text-blue-600"
             >
-              <Terminal size={28} />
+              <Terminal size={24} />
               <span>Modern Stack</span>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.05 }}
-              className="flex items-center gap-3 text-blue-600"
+              className="flex items-center gap-2 text-blue-600"
             >
-              <Sparkles size={28} />
+              <Sparkles size={24} />
               <span>Best Practices</span>
             </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="flex items-center gap-3 text-blue-600"
-            >
-              <Globe size={28} />
-              <span>Web Performance</span>
-            </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="flex items-center gap-3 text-blue-600"
-            >
-              <Rocket size={28} />
-              <span>Scalable Apps</span>
-            </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="flex items-center gap-3 text-blue-600"
-            >
-              <Layers size={28} />
-              <span>Component-Driven</span>
-            </motion.div>
           </div>
+          <motion.img
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+            alt="Coding workspace"
+            className="rounded-lg shadow-2xl mx-auto"
+          />
         </motion.div>
       </div>
     </section>
