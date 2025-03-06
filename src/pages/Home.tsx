@@ -16,6 +16,7 @@ import {
 import { Link } from "react-router-dom";
 import { Skills } from "../components/Skills";
 import { Contact } from "../components/Contact";
+import profileImage from "../images/profile.jpg";
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -145,7 +146,7 @@ export function Home() {
                 className="flex gap-6"
               >
                 <a
-                  href="https://github.com"
+                  href="https://github.com/benlaguroun"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4 bg-gray-800/50 rounded-full hover:bg-gray-700/50 transition-colors"
@@ -153,7 +154,7 @@ export function Home() {
                   <Github className="w-6 h-6" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/mohamed-benlaguroun/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-4 bg-gray-800/50 rounded-full hover:bg-gray-700/50 transition-colors"
@@ -161,7 +162,7 @@ export function Home() {
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a
-                  href="mailto:your.email@example.com"
+                  href="benlaguroun@gmail.com"
                   className="p-4 bg-gray-800/50 rounded-full hover:bg-gray-700/50 transition-colors"
                 >
                   <Mail className="w-6 h-6" />
@@ -188,8 +189,8 @@ export function Home() {
 
                   {/* Image */}
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
-                    alt="John Doe"
+                    src={profileImage} // Use the imported image
+                    alt="Your Profile"
                     className="w-full h-full object-cover rounded-full relative"
                   />
 

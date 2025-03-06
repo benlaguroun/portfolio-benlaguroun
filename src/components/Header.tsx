@@ -1,19 +1,19 @@
-import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Menu, X } from 'lucide-react';
-import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { motion } from "framer-motion";
+import { Github, Linkedin, Mail, Menu, X } from "lucide-react";
+import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
   const links = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/projects', label: 'Projects' },
-    { path: '/pricing', label: 'Pricing' },
-    { path: '/blog', label: 'Blog' },
-    { path: '/contact', label: 'Contact' }
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About" },
+    { path: "/projects", label: "Projects" },
+    { path: "/pricing", label: "Pricing" },
+    { path: "/blog", label: "Blog" },
+    { path: "/contact", label: "Contact" },
   ];
 
   return (
@@ -26,7 +26,7 @@ export function Header() {
             transition={{ duration: 0.5 }}
             className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text"
           >
-            John Doe
+            Mohamed Benlaguroun
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -41,7 +41,9 @@ export function Header() {
                 key={link.path}
                 to={link.path}
                 className={`relative group ${
-                  location.pathname === link.path ? 'text-blue-400' : 'text-gray-300'
+                  location.pathname === link.path
+                    ? "text-blue-400"
+                    : "text-gray-300"
                 }`}
               >
                 {link.label}
@@ -104,7 +106,9 @@ export function Header() {
                   key={link.path}
                   to={link.path}
                   className={`text-center py-2 ${
-                    location.pathname === link.path ? 'text-blue-400' : 'text-gray-300'
+                    location.pathname === link.path
+                      ? "text-blue-400"
+                      : "text-gray-300"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
