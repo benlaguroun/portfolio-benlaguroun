@@ -1,26 +1,29 @@
-import { motion } from 'framer-motion';
-import { Award, BookOpen, Coffee, Heart } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Award, BookOpen, Coffee, Heart } from "lucide-react";
 
 export function About() {
   const experiences = [
     {
-      year: '2021 - Present',
-      company: 'Tech Innovation Labs',
-      role: 'Senior Frontend Engineer',
-      description: 'Leading the frontend development team, implementing modern web solutions.'
+      year: "2023 - Present",
+      company: "Freelance / Personal Projects",
+      role: "Full-Stack Developer",
+      description:
+        "Building scalable web applications using React, Node.js, and Supabase, with a strong focus on frontend development.",
     },
     {
-      year: '2019 - 2021',
-      company: 'Digital Solutions Inc.',
-      role: 'Frontend Developer',
-      description: 'Developed responsive web applications using React and TypeScript.'
+      year: "2022 - 2023",
+      company: "University / Internships",
+      role: "Frontend Developer",
+      description:
+        "Developed interactive and responsive user interfaces using React, improving user experience and accessibility.",
     },
     {
-      year: '2017 - 2019',
-      company: 'WebCraft Studios',
-      role: 'Junior Developer',
-      description: 'Started my journey in web development, focusing on HTML, CSS, and JavaScript.'
-    }
+      year: "2021 - 2022",
+      company: "Self-Learning & Projects",
+      role: "Junior Developer",
+      description:
+        "Gained hands-on experience in web development by working on projects using HTML, CSS, JavaScript, and React.",
+    },
   ];
 
   return (
@@ -36,7 +39,8 @@ export function About() {
             About Me
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Passionate about creating beautiful web experiences and solving complex problems through clean, efficient code.
+            Passionate about creating beautiful web experiences and solving
+            complex problems through clean, efficient code.
           </p>
         </motion.div>
 
@@ -49,14 +53,16 @@ export function About() {
           >
             <h2 className="text-3xl font-semibold mb-6">My Journey</h2>
             <p className="text-gray-400 leading-relaxed">
-              With over 5 years of experience in frontend development, I've had the opportunity to work
-              on diverse projects ranging from e-commerce platforms to complex web applications.
-              I'm passionate about creating intuitive user interfaces and writing clean, maintainable code.
+              With over 3 years of experience in frontend development, I've had
+              the opportunity to work on diverse projects ranging from
+              e-commerce platforms to complex web applications. I'm passionate
+              about creating intuitive user interfaces and writing clean,
+              maintainable code.
             </p>
             <div className="flex gap-8 mt-8">
               <div className="flex items-center gap-2">
                 <Coffee className="text-blue-400" />
-                <span>500+ Commits</span>
+                <span>1000+ Commits</span>
               </div>
               <div className="flex items-center gap-2">
                 <Heart className="text-purple-400" />
@@ -86,7 +92,9 @@ export function About() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          <h2 className="text-3xl font-semibold mb-12 text-center">Experience</h2>
+          <h2 className="text-3xl font-semibold mb-12 text-center">
+            Experience
+          </h2>
           <div className="space-y-12">
             {experiences.map((exp, index) => (
               <motion.div
@@ -96,7 +104,9 @@ export function About() {
                 transition={{ duration: 0.5, delay: 0.8 + index * 0.2 }}
                 className="flex gap-8 items-start"
               >
-                <div className="flex-shrink-0 w-32 text-gray-400">{exp.year}</div>
+                <div className="flex-shrink-0 w-32 text-gray-400">
+                  {exp.year}
+                </div>
                 <div className="flex-grow">
                   <h3 className="text-xl font-semibold mb-2">{exp.company}</h3>
                   <div className="text-blue-400 mb-2">{exp.role}</div>

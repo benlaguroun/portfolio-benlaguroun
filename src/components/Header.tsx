@@ -60,7 +60,7 @@ export function Header() {
             className="hidden md:flex gap-6"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/benlaguroun"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-blue-400 transition-colors"
@@ -68,7 +68,7 @@ export function Header() {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/mohamed-benlaguroun/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-blue-400 transition-colors"
@@ -76,7 +76,7 @@ export function Header() {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="benlaguroun@gmail.com"
               className="text-gray-300 hover:text-blue-400 transition-colors"
             >
               <Mail size={20} />
