@@ -51,7 +51,7 @@ const projects = [
     technologies: ["React", "JavaScript", "Supabase", "Tailwind CSS"],
     github: "https://github.com/benlaguroun/french-learning-app",
     live: "https://benmoha.netlify.app/login",
-}
+  },
 
   {
     title: "Code Snippet Manager",
