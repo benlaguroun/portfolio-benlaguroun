@@ -1,31 +1,37 @@
-import { motion } from 'framer-motion';
-import { Calendar, Clock, User } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Calendar, Clock, User } from "lucide-react";
 
 const blogPosts = [
   {
     title: "The Future of Frontend Development",
-    excerpt: "Exploring upcoming trends and technologies that will shape the future of web development.",
+    excerpt:
+      "Exploring upcoming trends and technologies that will shape the future of web development.",
     date: "March 15, 2024",
     readTime: "5 min read",
-    author: "John Doe",
-    image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=800&q=80"
+    author: "mohamed ben",
+    image:
+      "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Mastering React Performance",
-    excerpt: "Advanced techniques and best practices for optimizing React applications.",
+    excerpt:
+      "Advanced techniques and best practices for optimizing React applications.",
     date: "March 10, 2024",
     readTime: "8 min read",
-    author: "John Doe",
-    image: "https://images.unsplash.com/photo-1561736778-92e52a7769ef?auto=format&fit=crop&w=800&q=80"
+    author: "mohamed ben",
+    image:
+      "https://images.unsplash.com/photo-1561736778-92e52a7769ef?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "The Art of Clean Code",
-    excerpt: "Writing maintainable and scalable code that your future self will thank you for.",
+    excerpt:
+      "Writing maintainable and scalable code that your future self will thank you for.",
     date: "March 5, 2024",
     readTime: "6 min read",
-    author: "John Doe",
-    image: "https://images.unsplash.com/photo-1555066931-bf19f8fd1085?auto=format&fit=crop&w=800&q=80"
-  }
+    author: "mohamed ben",
+    image:
+      "https://images.unsplash.com/photo-1555066931-bf19f8fd1085?auto=format&fit=crop&w=800&q=80",
+  },
 ];
 
 export function BlogPage() {
@@ -42,7 +48,8 @@ export function BlogPage() {
             Blog
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Thoughts, tutorials, and insights about frontend development and web technologies.
+            Thoughts, tutorials, and insights about frontend development and web
+            technologies.
           </p>
         </motion.div>
 

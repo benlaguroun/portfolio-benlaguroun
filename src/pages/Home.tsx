@@ -25,7 +25,7 @@ const fadeIn = {
 };
 
 const stats = [
-  { icon: Trophy, label: "Years Experience", value: "5+" },
+  { icon: Trophy, label: "Years Experience", value: "3+" },
   { icon: Code2, label: "Projects Completed", value: "50+" },
   { icon: Github, label: "Github Repos", value: "30+" },
   { icon: Terminal, label: "Code Reviews", value: "200+" },
@@ -191,11 +191,11 @@ export function Home() {
                   <img
                     src={profileImage} // Use the imported image
                     alt="Your Profile"
-                    className="w-full h-full object-cover rounded-full relative"
+                    className="w-500px h-500px object-cover rounded-full relative"
                   />
 
                   {/* Neon Border Animation */}
-                  <div className="absolute inset-0 animate-pulse border-[6px] border-transparent rounded-full before:absolute before:inset-0 before:rounded-full before:border-[6px] before:border-blue-500 before:animate-spin-slow"></div>
+                  <div className="absolute inset-0 animate-pulse border-[-1px] border-transparent rounded-full before:absolute before:inset-0 before:rounded-full before:border-[10px] before:border-blue-500 before:animate-spin-slow"></div>
                 </motion.div>
 
                 {/* Skill Badges */}
