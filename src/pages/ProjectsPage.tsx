@@ -18,7 +18,7 @@ const projects = [
     description:
       "A modern and efficient clinic management system for DentalCare, providing seamless appointment scheduling, patient records management, and doctor-patient communication. Designed with a clean and user-friendly interface.",
     image:
-      "https://images.unsplash.com/photo-1588776814546-1f7858a04f15?auto=format&fit=crop&w=800&q=80",
+      "https://get.pxhere.com/photo/dentist-dentistry-smile-patient-white-dental-young-female-teeth-clinic-woman-medical-treatment-whitening-care-health-professional-orthodontic-hygiene-equipment-happy-girl-person-healthy-portrait-adult-face-mouth-doctor-clean-background-health-care-visit-tool-clinical-oral-beautiful-perfect-procedure-people-office-caucasian-pretty-fresh-attractive-lifestyle-fun-looking-thinking-smiling-service-glasses-medical-assistant-vision-care-hospital-medical-glove-dental-assistant-medicine-research-child-dental-hygienist-medical-equipment-1446753.jpg",
     technologies: [
       "React",
       "Supabase",
@@ -38,8 +38,8 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&w=800&q=80",
     technologies: ["React", "D3.js", "TypeScript", "OpenWeather API"],
-    github: "https://github.com",
-    live: "https://example.com",
+    github: "https://github.com/benlaguroun/Weather-Dashboard",
+    live: "https://weatherbenlaguroun.netlify.app/",
     featured: true,
   },
   {
