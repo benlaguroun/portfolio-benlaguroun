@@ -50,7 +50,7 @@ const projects = [
       "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
     technologies: ["React", "JavaScript", "Supabase", "Tailwind CSS"],
     github: "https://github.com/benlaguroun/french-learning-app",
-    live: "https://benmoha.netlify.app/login",
+    live: "https://benmoha.netlify.app/",
   },
 
   {
