@@ -105,7 +105,7 @@ export function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="font-space-grotesk text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text"
               >
-                Software
+                Frontend
                 <br />
                 Engineer
               </motion.h1>
