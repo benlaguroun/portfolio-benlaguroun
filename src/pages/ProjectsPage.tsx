@@ -48,20 +48,26 @@ const projects = [
       "An interactive French learning application designed to help users master vocabulary, grammar, and pronunciation through engaging lessons and quizzes. Built with React, Supabase, and Tailwind CSS for a smooth learning experience.",
     image:
       "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
-    technologies: ["React", "JavaScript", "Supabase", "Tailwind CSS"],
+    technologies: [
+      "React",
+      "JavaScript",
+      "Next.js",
+      "Supabase",
+      "Tailwind CSS",
+    ],
     github: "https://github.com/benlaguroun/french-learning-app",
-    live: "https://benmoha.netlify.app/",
+    live: "https://french-learning-pwa.vercel.app/",
   },
 
   {
-    title: "Code Snippet Manager",
+    title: "Chichanova Streetwear",
     description:
-      "A web application for developers to store, organize, and share code snippets with syntax highlighting.",
+      "A stylish online store for premium streetwear apparel. Explore bold designs, high-quality products, and seamless shopping powered by Printify.",
     image:
-      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-    technologies: ["React", "Monaco Editor", "TypeScript", "Express"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "https://images.unsplash.com/photo-1618354691214-2ce579b8a4fd?auto=format&fit=crop&w=800&q=80", // Replace with your actual brand image if available
+    technologies: ["Next.js", "React", "TypeScript", "Printify API"],
+    github: "https://github.com/benlaguroun/chichanova",
+    live: "https://novachicha.vercel.app/",
   },
 ];
 
