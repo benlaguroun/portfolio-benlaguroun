@@ -3,15 +3,14 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-commerce Platform",
+    title: "Chichanova Streetwear",
     description:
-      "A full-featured online store built with React and TypeScript. Includes product management, cart functionality, and payment integration.",
+      "A stylish online store for premium streetwear apparel. Explore bold designs, high-quality products, and seamless shopping powered by Printify.",
     image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Redux", "Stripe"],
-    github: "https://github.com/benlaguroun/PrintCraft",
-    live: "https://printcraft.netlify.app/",
-    featured: true,
+      "https://plus.unsplash.com/premium_photo-1721742733156-736e11c918bb?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN0cmVldHdlYXJ8ZW58MHx8MHx8fDA%3D",
+    technologies: ["Next.js", "React", "TypeScript", "Printify API"],
+    github: "https://github.com/benlaguroun/chichanova",
+    live: "https://novachicha.vercel.app/",
   },
   {
     title: "DentalCare Clinic Management System",
@@ -28,6 +27,17 @@ const projects = [
     ],
     github: "https://github.com/benlaguroun/dental-care",
     live: "https://dentalben.netlify.app/",
+    featured: true,
+  },
+  {
+    title: "POD website",
+    description:
+      "A full-featured online store built with React and TypeScript. Includes product management, cart functionality, and payment integration.",
+    image:
+      "https://images.unsplash.com/photo-1592492135673-55966d3b541a?q=80&w=1386&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Redux", "Stripe"],
+    github: "https://github.com/benlaguroun/PrintCraft",
+    live: "https://printcraft.netlify.app/",
     featured: true,
   },
 
@@ -57,17 +67,6 @@ const projects = [
     ],
     github: "https://github.com/benlaguroun/french-learning-app",
     live: "https://french-learning-pwa.vercel.app/",
-  },
-
-  {
-    title: "Chichanova Streetwear",
-    description:
-      "A stylish online store for premium streetwear apparel. Explore bold designs, high-quality products, and seamless shopping powered by Printify.",
-    image:
-      "https://images.unsplash.com/photo-1618354691214-2ce579b8a4fd?auto=format&fit=crop&w=800&q=80", // Replace with your actual brand image if available
-    technologies: ["Next.js", "React", "TypeScript", "Printify API"],
-    github: "https://github.com/benlaguroun/chichanova",
-    live: "https://novachicha.vercel.app/",
   },
 ];
 
