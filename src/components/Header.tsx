@@ -24,9 +24,10 @@ export function Header() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text"
           >
-            Mohamed Benlaguroun
+            <Link to="/">
+              <img src="/images/logo.png" alt="Logo" className="h-10 w-auto" />
+            </Link>
           </motion.div>
 
           {/* Desktop Navigation */}
