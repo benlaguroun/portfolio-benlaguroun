@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { Code2, Sparkles, Terminal } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Code2, Sparkles, Terminal } from "lucide-react";
 
 export function Hero() {
   return (
@@ -16,7 +16,9 @@ export function Hero() {
             <span className="text-blue-600">.</span>
           </h1>
           <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-            Crafting beautiful, responsive, and user-friendly web experiences with modern technologies.
+            I build clean, responsive websites that not only look great but also
+            feel easy and intuitive to use—powered by the latest web
+            technologies.
           </p>
           <div className="flex justify-center gap-8 mb-16">
             <motion.div

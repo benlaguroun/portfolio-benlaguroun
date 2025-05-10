@@ -115,8 +115,9 @@ export function Home() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-xl text-gray-400 mb-8"
               >
-                Crafting beautiful, responsive, and user-friendly web
-                experiences with modern technologies.
+                I build clean, responsive websites that not only look great but
+                also feel easy and intuitive to use—powered by the latest web
+                technologies.
               </motion.p>
 
               <motion.div
