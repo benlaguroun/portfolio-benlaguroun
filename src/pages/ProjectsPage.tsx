@@ -42,16 +42,17 @@ const projects = [
   },
 
   {
-    title: "Weather Dashboard",
+    title: "StreamHub",
     description:
-      "A responsive weather application with beautiful visualizations, location-based forecasts, and historical weather data.",
+      "A Netflix-style streaming platform where users can explore movies, watch trailers, and enjoy live TV channels with a premium viewing experience.",
     image:
-      "https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&w=800&q=80",
-    technologies: ["React", "D3.js", "TypeScript", "OpenWeather API"],
-    github: "https://github.com/benlaguroun/Weather-Dashboard",
-    live: "https://weatherbenlaguroun.netlify.app/",
+      "https://i.pinimg.com/736x/ae/98/af/ae98af3445fac498e63dded60625644c.jpg",
+    technologies: ["React", "TypeScript", "Framer Motion"],
+    github: "https://github.com/benlaguroun/StreamHub",
+    live: "https://streamben.netlify.app/",
     featured: true,
   },
+
   {
     title: "French Learning App",
     description:
