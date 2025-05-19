@@ -105,9 +105,9 @@ export function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="font-space-grotesk text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text"
               >
-                Frontend
+                Mohamed
                 <br />
-                Engineer
+                Benlaguroun
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -115,9 +115,9 @@ export function Home() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-xl text-gray-400 mb-8"
               >
-                I build clean, responsive websites that not only look great but
-                also feel easy and intuitive to use—powered by the latest web
-                technologies.
+                software engineer (Frontend), <br />I build clean, responsive
+                websites that not only look great but also feel easy and
+                intuitive to use—powered by the latest web technologies.
               </motion.p>
 
               <motion.div
