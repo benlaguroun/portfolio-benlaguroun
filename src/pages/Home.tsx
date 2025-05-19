@@ -103,19 +103,20 @@ export function Home() {
                 initial={{ scale: 0.5, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className="font-space-grotesk text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text"
+                className="font-space-grotesk text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-transparent bg-clip-text text-center md:text-left leading-tight"
               >
                 Mohamed
                 <br />
                 Benlaguroun
               </motion.h1>
+
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
-                className="text-xl text-gray-400 mb-8"
+                className="text-base sm:text-lg md:text-xl text-gray-400 mb-8 text-center md:text-left leading-relaxed"
               >
-                software engineer (Frontend), <br />I build clean, responsive
+                Software engineer (Frontend), <br />I build clean, responsive
                 websites that not only look great but also feel easy and
                 intuitive to use—powered by the latest web technologies.
               </motion.p>
