@@ -178,25 +178,25 @@ export function Home() {
               className="relative"
             >
               <div className="relative z-10 flex flex-col items-center">
-                {/* Circular Image with Neon Animation & Dual-Color Shadow */}
+                {/* Circular Image with Neon Glow Animation */}
                 <motion.div
                   initial={{ scale: 0.8, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 0.8, delay: 0.6 }}
-                  className="relative w-52 h-52 rounded-full border-4 border-gray-700 overflow-hidden"
+                  className="relative w-52 h-52 rounded-full overflow-visible"
                 >
-                  {/* Glowing Shadow Behind Image */}
-                  <div className="absolute w-60 h-60 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 opacity-75 blur-3xl"></div>
+                  {/* Outer Glow Effect */}
+                  <div className="absolute inset-0 rounded-full pointer-events-none animate-pulse shadow-[0_0_20px_6px_rgba(59,130,246,0.8),0_0_40px_10px_rgba(168,85,247,0.6)]"></div>
 
-                  {/* Image */}
-                  <img
-                    src={profileImage} // Use the imported image
-                    alt="Your Profile"
-                    className="w-500px h-500px object-cover rounded-full relative"
-                  />
-
-                  {/* Neon Border Animation */}
-                  <div className="absolute inset-0 animate-pulse border-[-1px] border-transparent rounded-full before:absolute before:inset-0 before:rounded-full before:border-[10px] before:border-blue-500 before:animate-spin-slow"></div>
+                  {/* Image Wrapper with Solid Border */}
+                  <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-gray-700">
+                    <img
+                      src={profileImage}
+                      alt="Your Profile"
+                      className="w-full h-full object-cover object-[center_20%]
+                      rounded-full"
+                    />
+                  </div>
                 </motion.div>
 
                 {/* Skill Badges */}
