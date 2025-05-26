@@ -3,14 +3,14 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Chichanova Streetwear",
+    title: "stylefolk Streetwear",
     description:
       "A stylish online store for premium streetwear apparel. Explore bold designs, high-quality products, and seamless shopping powered by Printify.",
     image:
       "https://plus.unsplash.com/premium_photo-1721742733156-736e11c918bb?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN0cmVldHdlYXJ8ZW58MHx8MHx8fDA%3D",
     technologies: ["Next.js", "React", "TypeScript", "Printify API"],
     github: "https://github.com/benlaguroun/chichanova",
-    live: "https://novachicha.vercel.app/",
+    live: "https://stylefolk.netlify.app/",
   },
   {
     title: "DentalCare Clinic Management System",
