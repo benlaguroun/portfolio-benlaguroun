@@ -53,12 +53,29 @@ export function About() {
           >
             <h2 className="text-3xl font-semibold mb-6">My Journey</h2>
             <p className="text-gray-400 leading-relaxed">
-              With over 3 years of experience in frontend development, I've had
-              the opportunity to work on diverse projects ranging from
-              e-commerce platforms to complex web applications. I'm passionate
-              about creating intuitive user interfaces and writing clean,
-              maintainable code.
+              Over the past 3+ years, I’ve honed my skills as a frontend
+              software engineer by contributing to a wide range of dynamic and
+              high-impact web projects. My experience spans building responsive
+              e-commerce platforms, data-driven dashboards, and scalable
+              single-page applications using modern technologies like React,
+              Next.js, and TypeScript.
+              <br />
+              <br />
+              Throughout my career, I’ve developed a deep appreciation for
+              user-centric design and performance optimization. I take pride in
+              translating complex requirements into elegant, intuitive
+              interfaces that enhance the user experience while maintaining
+              clean, modular, and maintainable codebases.
+              <br />
+              <br />
+              I'm highly collaborative and thrive in agile environments where
+              communication and continuous learning are key. Whether working
+              closely with designers to perfect UI/UX flows or partnering with
+              backend teams to ensure seamless integration, I strive to deliver
+              robust, accessible, and performant frontend solutions that drive
+              real business value.
             </p>
+
             <div className="flex gap-8 mt-8">
               <div className="flex items-center gap-2">
                 <Coffee className="text-blue-400" />
