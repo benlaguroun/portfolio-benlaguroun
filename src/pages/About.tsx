@@ -4,7 +4,15 @@ import { Award, BookOpen, Coffee, Heart } from "lucide-react";
 export function About() {
   const experiences = [
     {
-      year: "2023 - Present",
+      year: "2024 - Present",
+      company: "Freelance / Personal Projects",
+      role: "Full-Stack Developer (Frontend Focused)",
+      description:
+        "Leading the development of full-stack web applications with a strong emphasis on modern frontend architecture. Built and deployed responsive, high-performance user interfaces using React, Next.js, and Tailwind CSS. Integrated backend services using Node.js, Supabase, and RESTful APIs, while focusing on code reusability, accessibility, and UX design best practices. Also implemented authentication, real-time features, and dashboard analytics for client and personal projects. Collaborated with designers and stakeholders in agile workflows, continually iterating based on user feedback and performance metrics.",
+    },
+
+    {
+      year: "2023 - 2024",
       company: "Freelance / Personal Projects",
       role: "Full-Stack Developer",
       description:
@@ -79,11 +87,11 @@ export function About() {
             <div className="flex gap-8 mt-8">
               <div className="flex items-center gap-2">
                 <Coffee className="text-blue-400" />
-                <span>1000+ Commits</span>
+                <span>2000+ Commits</span>
               </div>
               <div className="flex items-center gap-2">
                 <Heart className="text-purple-400" />
-                <span>50+ Projects</span>
+                <span>60+ Projects</span>
               </div>
               <div className="flex items-center gap-2">
                 <BookOpen className="text-pink-400" />
