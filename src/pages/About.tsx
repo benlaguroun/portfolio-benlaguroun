@@ -127,7 +127,7 @@ export function About() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.8 + index * 0.2 }}
-                className="flex gap-8 items-start"
+                className="flex flex-col md:flex-row gap-4 md:gap-8 items-start"
               >
                 <div className="flex-shrink-0 w-32 text-gray-400">
                   {exp.year}
